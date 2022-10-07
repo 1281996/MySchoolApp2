@@ -1,0 +1,17 @@
+<nav class="nav-extended">
+  <div class="nav-wrapper">
+    <a href="#!"> any question? +91 8247587811</a>
+    <ul class="right hide-on-med-and-down">
+      <li><a *ngIf="!getIsLoggedIn()" routerLink="/login">Login</a></li>
+      <li><a *ngIf="!getIsLoggedIn()" routerLink="/register">Parent Register</a></li>
+      <li><a *ngIf="!getIsLoggedIn()" routerLink="/registerStaff">Staff Register</a></li>
+      <li><a *ngIf="getIsLoggedIn()" routerLink="/school">School Updates</a></li>
+      <li><a *ngIf="getIsLoggedIn()" routerLink="/home">Home</a></li>
+      <li><a *ngIf="getIsLoggedIn()" (click)="removeLocalStorage()">Logout</a></li>
+
+    </ul>
+  </div>
+  <div class="nav-content">
+    <img src="./assets/logo.jpg" alt="Logo" class="logo" />
+  </div>
+</nav>

@@ -1,0 +1,52 @@
+<!-- Show clicked deatils -->
+<div class="row">
+    <div class="col s12 m6">
+        <div class="card">
+            <div class="card-content">
+                <span class="card-title">Details</span>
+                <table>
+                    <tr>Student Name</tr>
+                    <td>{{userDetails.studentName}}</td>
+                    <tr>Parent Name</tr>
+                    <td>{{userDetails.parentName}}</td>
+                    <tr>Student RegNo</tr>
+                    <td>{{userDetails.studentRegNo}}</td>
+                    <tr>Parent RegNo:</tr>
+                    <td>{{userDetails.regNo}}</td>
+                    <tr>Email Id:</tr>
+                    <td>{{userDetails.emailId}}</td>
+                    <tr>Address</tr>
+                    <td>{{userDetails.address}}</td>
+                    <tr>Country</tr>
+                    <td>{{userDetails.country}}</td>
+                    <tr>State</tr>
+                    <td>{{userDetails.state}}</td>
+                    <tr>City</tr>
+                    <td>{{userDetails.city}}</td>
+                    <tr>Zip Code</tr>
+                    <td>{{userDetails.zipCode}}</td>
+                    <tr>PrimaryContactName</tr>
+                    <td>{{userDetails.primaryContactName}}</td>
+                    <tr>PrimaryContactPhoneNo</tr>
+                    <td>{{userDetails.primaryContactPhoneNo}}</td>
+                    <tr>SecondaryContactName</tr>
+                    <td>{{userDetails.secondaryContactName}}</td>
+                    <tr>SecondaryContactPhoneNo</tr>
+                    <td>{{userDetails.secondaryContactPhoneNo}}</td>
+                    <tr>Age</tr>
+                    <td>{{userDetails.age}}</td>
+                    <tr>DOB</tr>
+                    <td>{{userDetails.dateOfBirth}}</td>
+                    <tr>Comment</tr>
+                    <td><input type="text" [(ngModel)]="comment" name="comment" />
+                    </td>
+                </table>
+                <div class="card-action">
+                    <button class="btn waves-effect waves-light"
+                        (click)=" publish('APPROVED',userDetails,comment)">Accept</button>&nbsp;&nbsp;
+                    <button class="btn waves-effect waves-light"
+                        (click)="publish('REJECTED',userDetails,comment)">Reject</button>
+                </div>
+            </div>
+        </div>
+    </div>

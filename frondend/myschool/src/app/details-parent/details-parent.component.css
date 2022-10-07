@@ -1,0 +1,14 @@
+tr {
+  background-color: #879aad;
+  color: white;
+  font-weight: 500;
+}
+td {
+  font-weight: 500;
+}
+.btn {
+  background-color: #2d3e50;
+}
+.row {
+  margin-left: 300px;
+}

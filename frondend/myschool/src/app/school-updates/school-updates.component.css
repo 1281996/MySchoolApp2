@@ -1,0 +1,47 @@
+.template {
+  border: 5px solid #2d3e50;
+  margin-top: 10px;
+}
+h4 {
+  color: #2d3e50;
+}
+.submit {
+  text-align: center;
+}
+.text-danger {
+  color: red;
+}
+.btn {
+  background-color: #2d3e50;
+}
+/* label color */
+.input-field label {
+  color: #000;
+}
+/* label focus color */
+.input-field input:focus + label {
+  color: #000;
+}
+/* label underline focus color */
+.input-field input:focus {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* valid color */
+.input-field input.valid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input.invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #000;
+}
+
+.start {
+  color: red;
+}

@@ -1,0 +1,222 @@
+<table *ngIf="getRole()=='ROLE_STAFF'">
+    <thead>
+        <tr>
+            <th>Parent Name</th>
+            <th>Student Name</th>
+            <th>Student No</th>
+            <th>status</th>
+            <th>comment</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let user of userList">
+            <td>{{user.parentName}}</td>
+            <td>{{user.studentName}}</td>
+            <td><button (click)="seeAllDetails(user)" class="btn waves-effect waves-light" type="submit"
+                    name="action">{{user.studentRegNo}}</button></td>
+            <td>{{user.status}}</td>
+            <td>{{user.comment}}</td>
+        </tr>
+
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="valign-wrapper" *ngIf="getRole()=='ROLE_PARENT'">
+    <div class="row template">
+        <form class="col s12" [formGroup]="frmUpdate" (ngSubmit)="update(frmUpdate.value)">
+            <h5>Parent Update </h5>
+            <div class="row">
+                <div class="input-field col s4">
+                    <input id="parent_name" type="text" class="validate" formControlName="parentName"
+                        [(ngModel)]="resParent.parentName" />
+                    <label for="parent_name">Parent Name<span class='start'>*</span></label>
+                    <dd class="text-danger" *ngIf="parentName.touched && parentName.invalid">
+                        <span *ngIf="parentName.errors?.['required']">Parent Name Required</span>
+                    </dd>
+                    <dd class="text-danger" *ngIf="parentName.touched && parentName.invalid">
+                        <span *ngIf="parentName.errors?.['pattern']">Parent name should contain only alphabeticals and
+                            spaces</span>
+                    </dd>
+                </div>
+                <div class="input-field col s4">
+                    <input id="student_name" type="text" class="validate" formControlName="studentName"
+                        [(ngModel)]="resParent.studentName" />
+                    <label for="student_name">Student Name<span class='start'>*</span></label>
+                    <dd class="text-danger" *ngIf="studentName.touched && studentName.invalid">
+                        <span *ngIf="studentName.errors?.['required']">Student Name Required</span>
+                    </dd>
+                    <dd class="text-danger" *ngIf="studentName.touched && studentName.invalid">
+                        <span *ngIf="studentName.errors?.['pattern']">Student name should contain only alphabeticals and
+                            spaces</span>
+                    </dd>
+                </div>
+                <div class="input-field col s4">
+                    <input id="student_reg_no" type="text" class="validate" formControlName="studentRegNo"
+                        [(ngModel)]="resParent.studentRegNo" />
+                    <label for="student_reg_no">Student Register No<span class='start'>*</span></label>
+                    <dd class="text-danger" *ngIf="studentRegNo.touched && studentRegNo.invalid">
+                        <span *ngIf="studentRegNo.errors?.['required']">StudentRegNo Required</span>
+                    </dd>
+                    <dd class="text-danger" *ngIf="studentRegNo.touched && studentRegNo.invalid">
+                        <span *ngIf="studentRegNo.errors?.['pattern']">Reg No should like R-XXX.XXX Required</span>
+                    </dd>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s5">
+                    <input id="email" type="email" class="validate" [(ngModel)]="resParent.emailId"
+                        formControlName="emailId" />
+                    <label for="email">Email<span class='start'>*</span></label>
+                    <dd class="text-danger" *ngIf="emailId.touched && emailId.invalid">
+                        <span *ngIf="emailId.errors?.['required']">EmailId Required</span>
+                    </dd>
+                    <dd class="text-danger" *ngIf="emailId.touched && emailId.invalid">
+                        <span *ngIf="emailId.errors?.['pattern']">@[email].com</span>
+                    </dd>
+                </div>
+                <div class="input-field col s5">
+                    <input id="password" type="password" class="validate" formControlName="password" />
+                    <label for="password">Password<span class='start'>*</span></label>
+                    <dd class="text-danger" *ngIf="password.touched && password.invalid">
+                        <span *ngIf="password.errors?.['required']">Password Required</span>
+                    </dd>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <textarea id="address" class="materialize-textarea" formControlName="address"
+                        [(ngModel)]="resParent.address"></textarea>
+                    <label for="address">Address<span class='start'>*</span></label>
+                    <dd class="text-danger" *ngIf="address.touched && address.invalid">
+                        <span *ngIf="address.errors?.['required']">Address Required</span>
+                    </dd>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s3">
+                    <input id="country" type="text" class="validate" formControlName="country"
+                        [(ngModel)]="resParent.country" />
+                    <dd class="text-danger" *ngIf="country.touched && country.invalid">
+                        <span *ngIf="country.errors?.['required']">country Required</span>
+                    </dd>
+                </div>
+                <div class="input-field col s3">
+                    <input id="state" type="text" class="validate" formControlName="state"
+                        [(ngModel)]="resParent.state" />
+                    <dd class="text-danger" *ngIf="state.touched && state.invalid">
+                        <span *ngIf="state.errors?.['required']">state Required</span>
+                    </dd>
+                </div>
+                <div class="input-field col s3">
+                    <input id="city" type="text" class="validate" formControlName="city" [(ngModel)]="resParent.city" />
+                    <label for="city">City<span class='start'>*</span></label>
+                    <dd class="text-danger" *ngIf="city.touched && city.invalid">
+                        <span *ngIf="city.errors?.['required']">City Required</span>
+                    </dd>
+                    <dd class="text-danger" *ngIf="city.touched && city.invalid">
+                        <span *ngIf="city.errors?.['pattern']">city should contain only alphabeticals </span>
+                    </dd>
+                </div>
+                <div class="input-field col s3">
+                    <input id="zip_code" type="number" class="validate" formControlName="zipCode"
+                        [(ngModel)]="resParent.zipCode" />
+                    <label for="zip_code">Zip Code<span class='start'>*</span></label>
+                    <dd class="text-danger" *ngIf="zipCode.touched && zipCode.invalid">
+                        <span *ngIf="zipCode.errors?.['required']">Zipcode Required</span>
+                    </dd>
+                    <dd class="text-danger" *ngIf="zipCode.touched && zipCode.invalid">
+                        <span *ngIf="zipCode.errors?.['pattern']">Zip Code Contains 6 digits</span>
+                    </dd>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s3">
+                    <input id="primary_contact_name" type="text" class="validate" formControlName="primaryContactName"
+                        [(ngModel)]="resParent.primaryContactName" />
+                    <label for="primary_contact_name">Primary Contact Name<span class='start'>*</span></label>
+                    <dd class="text-danger" *ngIf="primaryContactName.touched && primaryContactName.invalid">
+                        <span *ngIf="primaryContactName.errors?.['required']">Primary contact name Required</span>
+                    </dd>
+                </div>
+                <div class="input-field col s3">
+                    <input id="primary_contact_no" type="number" class="validate"
+                        formControlName="primaryContactPhoneNo" [(ngModel)]="resParent.primaryContactPhoneNo" />
+                    <label for="primary_contact_no">Primary Contact Number<span class='start'>*</span></label>
+                    <dd class="text-danger" *ngIf="primaryContactPhoneNo.touched && primaryContactPhoneNo.invalid">
+                        <span *ngIf="primaryContactPhoneNo.errors?.['required']">Primary Contact No Required</span>
+                    </dd>
+                    <dd class="text-danger" *ngIf="primaryContactPhoneNo.touched && primaryContactPhoneNo.invalid">
+                        <span *ngIf="primaryContactPhoneNo.errors?.['pattern']">Primary Contact No Contains 10
+                            digits</span>
+                    </dd>
+                </div>
+                <div class="input-field col s3">
+                    <input id="secondary_contact_name" type="text" class="validate"
+                        formControlName="secondaryContactName" [(ngModel)]="resParent.secondaryContactName" />
+                    <label for="secondary_contact_name">Secondary Contact Name<span class='start'>*</span></label>
+                    <dd class="text-danger" *ngIf="secondaryContactName.touched && secondaryContactName.invalid">
+                        <span *ngIf="secondaryContactName.errors?.['required']">Secondary contact Name Required</span>
+                    </dd>
+                </div>
+                <div class="input-field col s3">
+                    <input id="secondary_phone_no" type="number" class="validate"
+                        formControlName="secondaryContactPhoneNo" [(ngModel)]="resParent.secondaryContactPhoneNo" />
+                    <label for="secondary_phone_no">Secondary Contact Number<span class='start'>*</span></label>
+                    <dd class="text-danger" *ngIf="secondaryContactPhoneNo.touched && secondaryContactPhoneNo.invalid">
+                        <span *ngIf="secondaryContactPhoneNo.errors?.['required']">Secondary contact No Required</span>
+                    </dd>
+                    <dd class="text-danger" *ngIf="secondaryContactPhoneNo.touched && secondaryContactPhoneNo.invalid">
+                        <span *ngIf="secondaryContactPhoneNo.errors?.['pattern']">Secondary contact No Contains 10
+                            digits</span>
+                    </dd>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s3">
+                    <input type="text" class="datepicker" formControlName="dateOfBirth" id="date_of_birth"
+                        [(ngModel)]="resParent.dateOfBirth" />
+                    <label for="date_of_birth">DOB<span class='start'>*</span></label>
+                </div>
+                <div class="input-field col s3">
+                    <input type="number" class="validate" formControlName="age" id="age" [(ngModel)]="resParent.age" />
+                    <label for="age">Age<span class='start'>*</span></label>
+                    <dd class="text-danger" *ngIf="age.touched && age.invalid">
+                        <span *ngIf="age.errors?.['required']">Age Required</span>
+                    </dd>
+                    <dd class="text-danger" *ngIf="age.touched && age.invalid">
+                        <span *ngIf="age.errors?.['min']">Minmum age should be 4</span>
+                    </dd>
+                </div>
+            </div>
+            <div class="row submit">
+                <button class="btn waves-effect waves-light" [disabled]="frmUpdate.invalid" type="submit"
+                    name="action">Update</button>&nbsp;&nbsp;
+                <button class="btn waves-effect waves-light" type="submit" (click)="clearForm()"
+                    name="action">Clear</button>
+            </div>
+        </form>
+    </div>
+</div>
