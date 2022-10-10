@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
-
 import org.springframework.stereotype.Service;
 
 import com.cog.dto.ResponseDto;
@@ -29,17 +28,24 @@ public class CircularService {
 
 	public void createCircular(Circular circular) {
 		circularRepository.save(circular);
-}
+	}
 
 	public ResponseDto createAcknowledge(Acknowledge acknowledge, Integer circularId) {
 		Optional<Circular> circularDb = circularRepository.findById(circularId);
-		circularDb.ifPresent(circular -> {
-			acknowledge.setAcknowledgeDate(LocalDate.now());
-			acknowledge.setCircular(circular);
-			acknowledgeRepository.save(acknowledge);
-		});
 		ResponseDto responseDto = new ResponseDto();
-		responseDto.setMsg("updated");
+		if (circularDb.isPresent()) {
+			List<Acknowledge> checkAcknowledge = acknowledgeRepository.findByEmailAndCircular(acknowledge.getEmail(),
+					circularDb.get());
+			if (!checkAcknowledge.isEmpty()) {
+				responseDto.setMsg("Already acknowledged");
+				return responseDto;
+			}
+			acknowledge.setAcknowledgeDate(LocalDate.now());
+			acknowledge.setCircular(circularDb.get());
+			acknowledgeRepository.save(acknowledge);
+		}
+
+		responseDto.setMsg("Acknowledged Sent Successfully");
 		return responseDto;
 
 	}

@@ -5,6 +5,7 @@ import { AuthService } from '../auth.service';
 
 import * as M from 'materialize-css';
 import { Route, Router } from '@angular/router';
+import { NotificationService } from '../notification.service';
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
@@ -26,7 +27,8 @@ export class RegisterComponent implements OnInit {
   constructor(
     private fb: FormBuilder,
     private authService: AuthService,
-    private route: Router
+    private route: Router,
+    private notification: NotificationService
   ) {
     this.statesList = this.indiaStates;
   }
@@ -155,10 +157,18 @@ export class RegisterComponent implements OnInit {
     this.authService.registerUser(registerObj).subscribe(
       (response) => {
         console.log(response);
+        this.notification.successNotification(
+          'Registered Succesfully',
+          registerObj.emailId
+        );
         this.route.navigate(['/login']);
       },
       (error) => {
         console.log(error);
+        this.notification.successNotification(
+          'Something Went Wrong',
+          registerObj.emailId
+        );
       }
     );
   }

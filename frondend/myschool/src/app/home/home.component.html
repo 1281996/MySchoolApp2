@@ -1,26 +1,29 @@
-<table *ngIf="getRole()=='ROLE_STAFF'">
-    <thead>
-        <tr>
-            <th>Parent Name</th>
-            <th>Student Name</th>
-            <th>Student No</th>
-            <th>status</th>
-            <th>comment</th>
-        </tr>
-    </thead>
+<section>
+    <h5>Registered Users</h5>
+    <table *ngIf="getRole()=='ROLE_STAFF'">
+        <thead>
+            <tr>
+                <th>Parent Name</th>
+                <th>Student Name</th>
+                <th>Student No</th>
+                <th>status</th>
+                <th>comment</th>
+            </tr>
+        </thead>
 
-    <tbody>
-        <tr *ngFor="let user of userList">
-            <td>{{user.parentName}}</td>
-            <td>{{user.studentName}}</td>
-            <td><button (click)="seeAllDetails(user)" class="btn waves-effect waves-light" type="submit"
-                    name="action">{{user.studentRegNo}}</button></td>
-            <td>{{user.status}}</td>
-            <td>{{user.comment}}</td>
-        </tr>
+        <tbody>
+            <tr *ngFor="let user of userList">
+                <td>{{user.parentName}}</td>
+                <td>{{user.studentName}}</td>
+                <td><button (click)="seeAllDetails(user)" class="btn waves-effect waves-light" type="submit"
+                        name="action">{{user.studentRegNo}}</button></td>
+                <td>{{user.status}}</td>
+                <td>{{user.comment}}</td>
+            </tr>
 
-    </tbody>
-</table>
+        </tbody>
+    </table>
+</section>
 
 
 

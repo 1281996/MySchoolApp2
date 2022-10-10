@@ -1,18 +1,23 @@
-<div>
-    <button *ngIf="getRole()=='ROLE_STAFF'" class="btn waves-effect waves-light p5" type="submit" name="action"
-        (click)="showCreateCircular()">Create
-        Circular</button>
-    <button class="btn waves-effect waves-light p5" type="submit" name="action" (click)="displayCirculars()">
-        View Circulars</button>
-    <button *ngIf="getRole()=='ROLE_STAFF'" class=" btn waves-effect waves-light p5" type="submit" name="action"
-        (click)="displayAcknowledge()">
-        Acknowledge Deatils</button>
-</div>
+<nav class="nav-extended">
+    <div class="nav-wrapper">
+        <div>
+            <button *ngIf="getRole()=='ROLE_STAFF'" class="btn waves-effect waves-light p3" type="submit" name="action"
+                (click)="showCreateCircular()">Create
+                Circular</button>
+            <button *ngIf="getRole()=='ROLE_STAFF'" class="btn waves-effect waves-light p3" type="submit" name="action"
+                (click)="displayCirculars()">
+                View Circulars</button>
+            <button *ngIf="getRole()=='ROLE_STAFF'" class=" btn waves-effect waves-light p3" type="submit" name="action"
+                (click)="displayAcknowledge()">
+                Acknowledge Deatils</button>
+        </div>
+    </div>
+</nav>
 <!--  create circular -->
 <div *ngIf="createCircularFlag" class="my-wrapper valign-wrapper center-align">
     <div class="row template">
         <form class="col s12" [formGroup]="frmCircular" (ngSubmit)="createCircular(frmCircular.value)">
-            <h5>Crate Circular</h5>
+            <h5>Create Circular</h5>
             <div class="row">
                 <div class="input-field col s5">
                     <input id="date" type="date" class="validate" formControlName="notificationDate">
@@ -20,6 +25,11 @@
                     <dd class="text-danger" *ngIf="notificationDate.touched && notificationDate.invalid">
                         <span *ngIf="notificationDate.errors?.['required']">Notification Date Required</span>
                     </dd>
+                    <dd class="text-danger" *ngIf="notificationDate.touched && notificationDate.invalid">
+                        <span *ngIf="notificationDate.errors?.['notificationDateRange']">Notification Date should future
+                            date</span>
+                    </dd>
+
                 </div>
 
                 <div class="input-field col s5">
@@ -34,7 +44,7 @@
             <div class="row">
                 <div class="input-field col s12">
                     <textarea id="textarea1" class="materialize-textarea" formControlName="information"></textarea>
-                    <label for="textarea1">Textarea<span class="start">*</span></label>
+                    <label for="textarea1">Information<span class="start">*</span></label>
                     <dd class="text-danger" *ngIf="information.touched && information.invalid">
                         <span *ngIf="information.errors?.['required']">Information Required</span>
                     </dd>
@@ -55,8 +65,8 @@
 
 <!-- circulars -->
 <div *ngIf="viewCircularFlag">
-    <div *ngFor="let circular of allCirculars">
-        <div class="row">
+    <div class="row">
+        <div *ngFor="let circular of allCirculars">
             <div class="col s6 m4">
                 <div class="card blue-grey darken-1">
                     <div class="card-content white-text">

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { MyschoolService } from '../myschool.service';
+import { NotificationService } from '../notification.service';
 
 @Component({
   selector: 'app-details-parent',
@@ -13,7 +14,8 @@ export class DetailsParentComponent implements OnInit {
   comment: any;
   constructor(
     private route: ActivatedRoute,
-    private schoolService: MyschoolService
+    private schoolService: MyschoolService,
+    private notification: NotificationService
   ) {
     this.route.queryParams.forEach((val: any) => {
       this.userId = val.user;
@@ -29,9 +31,15 @@ export class DetailsParentComponent implements OnInit {
     console.log(comment);
     user.comment = comment;
     this.schoolService.acceptorReject(status, user).subscribe(
-      (response: any) => {},
+      (response: any) => {
+        this.notification.successNotification(status, user.emailId);
+      },
       (error) => {
         console.log(error);
+        this.notification.successNotification(
+          'Something Went Wrong',
+          user.emailId
+        );
       }
     );
   }

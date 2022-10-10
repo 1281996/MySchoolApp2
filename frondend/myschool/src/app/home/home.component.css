@@ -64,3 +64,7 @@ h4 {
 .spandisplay {
   padding-right: 3px;
 }
+section {
+  background-color: #fff;
+  margin: 10px;
+}

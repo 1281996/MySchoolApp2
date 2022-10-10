@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import Swal from 'sweetalert2';
 import { AuthService } from '../auth.service';
+import { NotificationService } from '../notification.service';
 import { TokenService } from '../token.service';
 
 @Component({
@@ -17,7 +19,8 @@ export class LoginComponent implements OnInit {
     public authService: AuthService,
     public tokenService: TokenService,
     private fb: FormBuilder,
-    private route: Router
+    private route: Router,
+    private notication: NotificationService
   ) {
     if (this.tokenService.getToken()) {
       this.isLoggedIn = true;
@@ -51,10 +54,15 @@ export class LoginComponent implements OnInit {
         this.tokenService.saveIsLoggedIn(true);
         this.isLoggedIn = true;
         this.roles = this.tokenService.getUser().roles;
+        this.notication.successNotification(
+          'Logged in Successfully',
+          this.tokenService.getUser().email
+        );
         this.route.navigate(['/home']);
       },
       (error) => {
-        console.log('error');
+        console.log(error.error);
+        this.notication.errorNotification(loginObj.emailId, 'Bad Credentails');
       }
     );
   }

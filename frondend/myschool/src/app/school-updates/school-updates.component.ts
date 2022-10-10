@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, Validators } from '@angular/forms';
+import { DateValidator } from '../DateValidator';
 import { MyschoolService } from '../myschool.service';
+import { NotificationService } from '../notification.service';
 import { TokenService } from '../token.service';
 
 @Component({
@@ -12,16 +14,17 @@ export class SchoolUpdatesComponent implements OnInit {
   createCircularFlag: boolean = false;
   viewCircularFlag: boolean = true;
   acknoledgeFlag: boolean = false;
-
   allCirculars: any;
   acknowledgeObj: any = {
     email: '',
   };
   acknowledgeList: any;
+
   constructor(
     private fb: FormBuilder,
     private myschoolService: MyschoolService,
-    private tokenService: TokenService
+    private tokenService: TokenService,
+    private notification: NotificationService
   ) {}
 
   ngOnInit(): void {
@@ -35,9 +38,12 @@ export class SchoolUpdatesComponent implements OnInit {
       }
     );
   }
-
+  // new DatePipe().transform(myDate, 'yyyy-dd-MM');
   public frmCircular = this.fb.group({
-    notificationDate: this.fb.control('', [Validators.required]),
+    notificationDate: this.fb.control('', [
+      Validators.required,
+      DateValidator.notificationDateValidator(),
+    ]),
     information: this.fb.control('', [Validators.required]),
     postedBy: this.fb.control('', [Validators.required]),
   });
@@ -62,9 +68,20 @@ export class SchoolUpdatesComponent implements OnInit {
     this.myschoolService.createCircular(circular).subscribe(
       (response: any) => {
         console.log(response);
+        this.notification.successNotification(
+          'Circular Created',
+          circular.emailId
+        );
+        this.createCircularFlag = false;
+        this.acknoledgeFlag = false;
+        this.viewCircularFlag = true;
       },
       (error: any) => {
         console.log(error);
+        this.notification.errorNotification(
+          'Circular Not Created..Something went wrong',
+          circular.emailId
+        );
       }
     );
   }
@@ -72,6 +89,15 @@ export class SchoolUpdatesComponent implements OnInit {
     this.createCircularFlag = false;
     this.acknoledgeFlag = false;
     this.viewCircularFlag = true;
+    this.myschoolService.getAlleCircular().subscribe(
+      (response: any) => {
+        console.log(response);
+        this.allCirculars = response;
+      },
+      (error: any) => {
+        console.log(error);
+      }
+    );
   }
   getRole() {
     return this.tokenService.getUser().roles[0];
@@ -79,8 +105,18 @@ export class SchoolUpdatesComponent implements OnInit {
   acknowledge(circularId: any) {
     this.acknowledgeObj.email = this.tokenService.getUser().email;
     this.myschoolService.acknowledge(circularId, this.acknowledgeObj).subscribe(
-      (res: any) => {},
-      (error: any) => {}
+      (res: any) => {
+        this.notification.successNotification(
+          res.msg,
+          this.acknowledgeObj.email
+        );
+      },
+      (error: any) => {
+        this.notification.errorNotification(
+          'acknowledge  Not sent',
+          this.acknowledgeObj.email
+        );
+      }
     );
   }
   displayAcknowledge() {
