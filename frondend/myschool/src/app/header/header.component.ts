@@ -10,7 +10,12 @@ import { TokenService } from '../token.service';
 export class HeaderComponent implements OnInit {
   constructor(private tokenService: TokenService, private route: Router) {}
   isLoggedIn: any;
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.dropdown-trigger');
+      var instances = M.Dropdown.init(elems);
+    });
+  }
   removeLocalStorage() {
     console.log('removeLocalStorage');
     this.tokenService.signOut();
@@ -18,5 +23,8 @@ export class HeaderComponent implements OnInit {
   }
   getIsLoggedIn() {
     return this.tokenService.getIsLoggedIn();
+  }
+  getRole() {
+    return this.tokenService.getUser().roles[0];
   }
 }

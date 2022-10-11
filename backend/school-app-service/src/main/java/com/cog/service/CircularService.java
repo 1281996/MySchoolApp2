@@ -22,8 +22,16 @@ public class CircularService {
 	@Autowired
 	AcknowledgeRepository acknowledgeRepository;
 
-	public List<Circular> getAllCirculars() {
-		return circularRepository.findAll();
+	public List<Circular> getAllCirculars(String email) {
+		List<Circular> filteredList= circularRepository.findAll();
+				filteredList.forEach(circular->{
+			 List<Acknowledge> acknowledge=acknowledgeRepository.findByEmailAndCircular(email,circular);
+			System.out.println(acknowledge.toString());
+			 if(!acknowledge.isEmpty()) {
+				circular.setAckonwledgeFlag(true);
+			}
+		 });
+		return filteredList;
 	}
 
 	public void createCircular(Circular circular) {

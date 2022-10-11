@@ -16,10 +16,12 @@ import javax.persistence.SequenceGenerator;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 @Entity
 @Getter
 @Setter
+@ToString
 public class Acknowledge {
 	@Id
 	@SequenceGenerator(name = "acknowledge", sequenceName = "acknowledge_sequence",initialValue = 1,allocationSize = 1)
@@ -30,4 +32,5 @@ public class Acknowledge {
 	@ManyToOne(targetEntity = Circular.class)
 	@JoinColumn(name = "circular_id",referencedColumnName = "id")
 	Circular circular;
+	
 }

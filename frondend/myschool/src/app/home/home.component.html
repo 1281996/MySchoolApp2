@@ -1,6 +1,6 @@
-<section>
+<section *ngIf="getRole()=='ROLE_STAFF'">
     <h5>Registered Users</h5>
-    <table *ngIf="getRole()=='ROLE_STAFF'">
+    <table>
         <thead>
             <tr>
                 <th>Parent Name</th>

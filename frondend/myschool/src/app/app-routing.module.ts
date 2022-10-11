@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DetailsParentComponent } from './details-parent/details-parent.component';
 import { FooterComponent } from './footer/footer.component';
+import { GalleryComponent } from './gallery/gallery.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
@@ -37,6 +38,10 @@ const routes: Routes = [
   },
 
   { path: 'parentDetails', component: DetailsParentComponent },
+  {
+    path: 'gallery',
+    component: GalleryComponent,
+  },
 ];
 
 @NgModule({

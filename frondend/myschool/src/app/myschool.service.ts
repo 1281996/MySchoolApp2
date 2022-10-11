@@ -18,11 +18,11 @@ export class MyschoolService {
   acceptorReject(status: any, user: any) {
     return this.http.put(URL + 'accept/' + status, user);
   }
-  createCircular(circular: any) {
-    return this.http.post(URL + 'createCircular', circular);
+  createCircular(circular: any, email: any) {
+    return this.http.post(URL + 'createCircular/' + email, circular);
   }
-  getAlleCircular() {
-    return this.http.get(URL + 'allCirculars');
+  getAlleCircular(email: any) {
+    return this.http.get(URL + 'allCirculars/' + email);
   }
   acknowledge(circularId: any, acknowledgeObj: any) {
     return this.http.post(URL + 'acknowledge/' + circularId, acknowledgeObj);

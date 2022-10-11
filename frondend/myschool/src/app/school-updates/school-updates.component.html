@@ -1,4 +1,4 @@
-<nav class="nav-extended">
+<nav class="nav-extended" *ngIf="getRole()=='ROLE_STAFF'">
     <div class="nav-wrapper">
         <div>
             <button *ngIf="getRole()=='ROLE_STAFF'" class="btn waves-effect waves-light p3" type="submit" name="action"
@@ -76,7 +76,8 @@
                     <div class="card-action">
                         <p>{{circular.notificationDate}}</p>
                         <button class="btn waves-effect waves-light p3" *ngIf="getRole()=='ROLE_PARENT'"
-                            (click)="acknowledge(circular.id)">Acknowledge</button>
+                            (click)="acknowledge(circular.id)"
+                            [disabled]="circular.ackonwledgeFlag">Acknowledge</button>
                     </div>
                 </div>
             </div>

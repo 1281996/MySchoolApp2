@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { MyschoolService } from '../myschool.service';
 import { NotificationService } from '../notification.service';
 
@@ -15,7 +15,8 @@ export class DetailsParentComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private schoolService: MyschoolService,
-    private notification: NotificationService
+    private notification: NotificationService,
+    private router: Router
   ) {
     this.route.queryParams.forEach((val: any) => {
       this.userId = val.user;
@@ -33,6 +34,7 @@ export class DetailsParentComponent implements OnInit {
     this.schoolService.acceptorReject(status, user).subscribe(
       (response: any) => {
         this.notification.successNotification(status, user.emailId);
+        this.router.navigate(['/home']);
       },
       (error) => {
         console.log(error);

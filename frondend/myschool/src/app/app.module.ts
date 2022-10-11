@@ -14,6 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { authInterceptorProviders } from './auth.interceptor';
 import { SchoolUpdatesComponent } from './school-updates/school-updates.component';
 import { DetailsParentComponent } from './details-parent/details-parent.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { DetailsParentComponent } from './details-parent/details-parent.componen
     HomeComponent,
     SchoolUpdatesComponent,
     DetailsParentComponent,
+    GalleryComponent,
   ],
   imports: [
     BrowserModule,

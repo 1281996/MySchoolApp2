@@ -1,13 +1,33 @@
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
 <nav class="nav-extended">
   <div class="nav-wrapper">
-    <a href="#!"> any question? +91 8247587811</a>
+    <ul class="left hide-on-med-and-down">
+      <li class="phonetext"><i class="tiny material-icons">dialer_sip</i></li>
+      <li>+91 8247587811</li>
+    </ul>
     <ul class="right hide-on-med-and-down">
       <li><a *ngIf="!getIsLoggedIn()" routerLink="/login">Login</a></li>
-      <li><a *ngIf="!getIsLoggedIn()" routerLink="/register">Parent Register</a></li>
-      <li><a *ngIf="!getIsLoggedIn()" routerLink="/registerStaff">Staff Register</a></li>
-      <li><a *ngIf="getIsLoggedIn()" routerLink="/school">School Updates</a></li>
-      <li><a *ngIf="getIsLoggedIn()" routerLink="/home">Home</a></li>
+      <li> <a *ngIf="!getIsLoggedIn()" class='dropdown-trigger btn' href='#' data-target='dropdown1'>Register</a></li>
+      <li><a *ngIf="getIsLoggedIn()" routerLink="/school"><span *ngIf="getRole()=='ROLE_STAFF'">School
+            updates</span><span *ngIf="getRole()=='ROLE_PARENT'"><i
+              class=" tiny material-icons">notifications</i></span></a></li>
+      <li><a *ngIf="getIsLoggedIn()" routerLink="/home"><span *ngIf="getRole()=='ROLE_STAFF'">Approve/Reject</span><span
+            *ngIf="getRole()=='ROLE_PARENT'">Update</span></a></li>
       <li><a *ngIf="getIsLoggedIn()" (click)="removeLocalStorage()">Logout</a></li>
-
     </ul>
   </div>
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a class="acolor" routerLink="/register">Parent</a></li>
+    <li><a class="acolor" routerLink="/registerStaff">Staff</a></li>
+  </ul>
+  <nav class="nav-extended">
+    <div class="nav-wrapper secondnav">
+      <ul class="left hide-on-med-and-down">
+        <li><a href="" class="content">India</a></li>
+        <li><a routerLink="/gallery" class="content">Events</a></li>
+        <li><a routerLink="/gallery" class="content">Photos</a></li>
+      </ul>
+    </div>
+  </nav>

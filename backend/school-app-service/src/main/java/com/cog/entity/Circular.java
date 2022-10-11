@@ -9,15 +9,18 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
+import javax.persistence.Transient;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 @Entity
 @Getter
 @Setter
+@ToString
 public class Circular {
 	@Id
 	@SequenceGenerator(name = "circular", sequenceName = "circular_sequence",initialValue = 1,allocationSize = 1)
@@ -29,6 +32,8 @@ public class Circular {
 	String information;
 	@NotBlank(message = "postedBy Date is Required")
 	String postedBy;
+	@Transient
+	boolean ackonwledgeFlag;
 	
 	
 	

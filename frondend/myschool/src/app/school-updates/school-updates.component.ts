@@ -28,7 +28,7 @@ export class SchoolUpdatesComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.myschoolService.getAlleCircular().subscribe(
+    this.myschoolService.getAlleCircular(this.getEmailId()).subscribe(
       (response: any) => {
         console.log(response);
         this.allCirculars = response;
@@ -65,7 +65,7 @@ export class SchoolUpdatesComponent implements OnInit {
     this.viewCircularFlag = false;
   }
   createCircular(circular: any) {
-    this.myschoolService.createCircular(circular).subscribe(
+    this.myschoolService.createCircular(circular, this.getEmailId()).subscribe(
       (response: any) => {
         console.log(response);
         this.notification.successNotification(
@@ -89,7 +89,7 @@ export class SchoolUpdatesComponent implements OnInit {
     this.createCircularFlag = false;
     this.acknoledgeFlag = false;
     this.viewCircularFlag = true;
-    this.myschoolService.getAlleCircular().subscribe(
+    this.myschoolService.getAlleCircular(this.getEmailId()).subscribe(
       (response: any) => {
         console.log(response);
         this.allCirculars = response;
@@ -132,5 +132,8 @@ export class SchoolUpdatesComponent implements OnInit {
         console.log(error);
       }
     );
+  }
+  getEmailId() {
+    return this.tokenService.getUser().email;
   }
 }

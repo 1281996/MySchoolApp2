@@ -61,18 +61,18 @@ public class MySchoolController {
 		LOGGER.info("acceptOrRejectUser");
 		return new ResponseEntity<>(userService.acceptOrRejectUser(userDto.getId(), status,userDto), HttpStatus.ACCEPTED);
 	}
-	@GetMapping("/allCirculars")
-	public ResponseEntity<List<Circular>> getAllCirculars(){
+	@GetMapping("/allCirculars/{email}")
+	public ResponseEntity<List<Circular>> getAllCirculars(@PathVariable("email")String email){
 		LOGGER.info("getAllCirculars");
-		return new ResponseEntity<>(circularService.getAllCirculars(), HttpStatus.ACCEPTED);
+		return new ResponseEntity<>(circularService.getAllCirculars(email), HttpStatus.ACCEPTED);
 
 		
 	}
-	@PostMapping("/createCircular")
-	public ResponseEntity<List<Circular>> createCircular(@Valid @RequestBody Circular circular){
+	@PostMapping("/createCircular/{email}")
+	public ResponseEntity<List<Circular>> createCircular(@Valid @RequestBody Circular circular,@PathVariable("email")String email){
 		LOGGER.info("createCircular");
 		circularService.createCircular(circular);
-		return getAllCirculars();
+		return getAllCirculars(email);
 
 		
 	}
