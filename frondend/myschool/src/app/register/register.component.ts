@@ -1,10 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import * as $ from 'jquery';
 import { FormBuilder, FormControl, Validators } from '@angular/forms';
 import { AuthService } from '../auth.service';
 
 import * as M from 'materialize-css';
-import { Route, Router } from '@angular/router';
+import { Router } from '@angular/router';
 import { NotificationService } from '../notification.service';
 @Component({
   selector: 'app-register',
@@ -34,6 +33,7 @@ export class RegisterComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    M.updateTextFields();
     //date pickerjs code
     document.addEventListener('DOMContentLoaded', function () {
       var elems = document.querySelectorAll('.datepicker');
@@ -43,8 +43,8 @@ export class RegisterComponent implements OnInit {
     });
     //select js code
     document.addEventListener('DOMContentLoaded', function () {
-      var elems = document.querySelectorAll('select');
-      var instances = M.FormSelect.init(elems);
+      var elems1 = document.querySelectorAll('select');
+      var instances = M.FormSelect.init(elems1);
       //console.log(instances);
     });
   }

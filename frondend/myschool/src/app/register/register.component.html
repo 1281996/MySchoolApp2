@@ -65,28 +65,28 @@
                 </div>
             </div>
             <div class="row">
-                <div class="input-field col s3">
-                    <select (change)="countryChange($event)" formControlName="country">
-                        <option value="" disabled selected>Choose your option</option>
+                <div class="input-field col s6">
+                    Country<span class="redcolorspan">*</span>
+                    <select (change)="countryChange($event)" class="active browser-default" formControlName="country">
                         <option *ngFor="let country of countryStatesList">
                             {{country}}</option>
                     </select>
-                    <label>Country<span class='start'>*</span></label>
                     <dd class="text-danger" *ngIf="country.touched && country.invalid">
                         <span *ngIf="country.errors?.['required']">Country Required</span>
                     </dd>
                 </div>
-                <div class="input-field col s3">
-                    <select formControlName="state">
-                        <option value="" disabled selected>Choose your option</option>
+                <div class="input-field col s6">
+                    State<span class="redcolorspan">*</span>
+                    <select formControlName="state" class="browser-default">
                         <option *ngFor="let state of statesList">{{state}}</option>
                     </select>
-                    <label>State<span class='start'>*</span></label>
                     <dd class="text-danger" *ngIf="state.touched && state.invalid">
                         <span *ngIf="state.errors?.['required']">State Required</span>
                     </dd>
                 </div>
-                <div class="input-field col s3">
+            </div>
+            <div class="row">
+                <div class="input-field col s5">
                     <input id="city" type="text" class="validate" formControlName="city" />
                     <label for="city">City<span class='start'>*</span></label>
                     <dd class="text-danger" *ngIf="city.touched && city.invalid">
@@ -96,7 +96,7 @@
                         <span *ngIf="city.errors?.['pattern']">city should contain only alphabeticals </span>
                     </dd>
                 </div>
-                <div class="input-field col s3">
+                <div class="input-field col s5">
                     <input id="zip_code" type="number" class="validate" formControlName="zipCode" />
                     <label for="zip_code">Zip Code<span class='start'>*</span></label>
                     <dd class="text-danger" *ngIf="zipCode.touched && zipCode.invalid">

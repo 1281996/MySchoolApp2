@@ -1436,3 +1436,1069 @@ Unconditional classes:
 2022-10-11 08:50:26.602  INFO 17332 --- [RMI TCP Connection(30)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-10-11 08:50:26.603  INFO 17332 --- [RMI TCP Connection(30)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
 2022-10-11 08:50:29.524  INFO 17332 --- [RMI TCP Connection(30)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-10-11 13:29:21.017  INFO 49644 --- [restartedMain] com.cog.SchoolAppServiceApplication      : Starting SchoolAppServiceApplication using Java 17.0.4 on LTIN411775 with PID 49644 (C:\Users\2216990\Documents\App\backend\school-app-service\target\classes started by 2216990 in C:\Users\2216990\Documents\App\backend\school-app-service)
+2022-10-11 13:29:21.024  INFO 49644 --- [restartedMain] com.cog.SchoolAppServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-10-11 13:29:21.072  INFO 49644 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-11 13:29:21.072  INFO 49644 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-11 13:29:21.797  INFO 49644 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-11 13:29:21.870  INFO 49644 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 5 JPA repository interfaces.
+2022-10-11 13:29:22.622  INFO 49644 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-11 13:29:22.633  INFO 49644 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-11 13:29:22.634  INFO 49644 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 13:29:22.728  INFO 49644 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-11 13:29:22.729  INFO 49644 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1656 ms
+2022-10-11 13:29:22.834  WARN 49644 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-11 13:29:23.291  INFO 49644 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-11 13:29:23.626  INFO 49644 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-11 13:29:24.506  INFO 49644 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-11 13:29:25.340 DEBUG 49644 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 13 mappings in 'requestMappingHandlerMapping'
+2022-10-11 13:29:25.434 DEBUG 49644 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-10-11 13:29:25.471  INFO 49644 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4db7df4c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b3ffe07, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b933a16, org.springframework.security.web.header.HeaderWriterFilter@76446844, org.springframework.web.filter.CorsFilter@296fc16e, org.springframework.security.web.authentication.logout.LogoutFilter@293a4668, com.cog.jwt.AuthTokenFilter@2880d5e2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18b79e6f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@13374948, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34e33b14, org.springframework.security.web.session.SessionManagementFilter@3a7655f9, org.springframework.security.web.access.ExceptionTranslationFilter@5e12c79c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@70fd4f5d]
+2022-10-11 13:29:25.537 DEBUG 49644 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-10-11 13:29:25.575 DEBUG 49644 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-10-11 13:29:25.706  INFO 49644 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-11 13:29:25.754  INFO 49644 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-11 13:29:25.765  INFO 49644 --- [restartedMain] com.cog.SchoolAppServiceApplication      : Started SchoolAppServiceApplication in 5.125 seconds (JVM running for 5.875)
+2022-10-11 13:29:46.192  INFO 49644 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-11 13:29:46.192  INFO 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-11 13:29:46.192 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-10-11 13:29:46.192 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-10-11 13:29:46.200 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-10-11 13:29:46.200 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@c70d0e
+2022-10-11 13:29:46.200 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@3fb80a3f
+2022-10-11 13:29:46.200 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-10-11 13:29:46.200  INFO 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-10-11 13:29:46.257 DEBUG 49644 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 13:29:46.298 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 13:29:46.331 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/auth/login", parameters={}
+2022-10-11 13:29:46.331 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 13:29:46.515 DEBUG 49644 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.cog.dto.LoginDto@261d1d00]
+2022-10-11 13:29:46.590  INFO 49644 --- [http-nio-8080-exec-3] com.cog.controller.AuthorController      : loginUser
+2022-10-11 13:29:46.882  INFO 49644 --- [http-nio-8080-exec-3] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:29:47.204 DEBUG 49644 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.cog.controller.AuthorController#handleAnyException(Exception)
+2022-10-11 13:29:47.221 DEBUG 49644 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:29:47.221 DEBUG 49644 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [{500 INTERNAL_SERVER_ERROR=Cannot invoke "com.cog.entity.User.getId()" because "user" is null}]
+2022-10-11 13:29:47.253  WARN 49644 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authentication.InternalAuthenticationServiceException: Cannot invoke "com.cog.entity.User.getId()" because "user" is null]
+2022-10-11 13:29:47.263 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2022-10-11 13:29:57.370 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 13:29:57.370 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/auth/login", parameters={}
+2022-10-11 13:29:57.370 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 13:29:57.378 DEBUG 49644 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.cog.dto.LoginDto@64b3b430]
+2022-10-11 13:29:57.378  INFO 49644 --- [http-nio-8080-exec-2] com.cog.controller.AuthorController      : loginUser
+2022-10-11 13:29:57.378  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:29:57.378 DEBUG 49644 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.cog.controller.AuthorController#handleAnyException(Exception)
+2022-10-11 13:29:57.387 DEBUG 49644 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:29:57.387 DEBUG 49644 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [{500 INTERNAL_SERVER_ERROR=Cannot invoke "com.cog.entity.User.getId()" because "user" is null}]
+2022-10-11 13:29:57.389  WARN 49644 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authentication.InternalAuthenticationServiceException: Cannot invoke "com.cog.entity.User.getId()" because "user" is null]
+2022-10-11 13:29:57.389 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2022-10-11 13:30:12.151 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 13:30:12.157 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/auth/login", parameters={}
+2022-10-11 13:30:12.157 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 13:30:12.158 DEBUG 49644 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.cog.dto.LoginDto@25d863ea]
+2022-10-11 13:30:12.158  INFO 49644 --- [http-nio-8080-exec-4] com.cog.controller.AuthorController      : loginUser
+2022-10-11 13:30:12.158  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:30:12.166 DEBUG 49644 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.cog.controller.AuthorController#handleAnyException(Exception)
+2022-10-11 13:30:12.167 DEBUG 49644 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:30:12.167 DEBUG 49644 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [{500 INTERNAL_SERVER_ERROR=Cannot invoke "com.cog.entity.User.getId()" because "user" is null}]
+2022-10-11 13:30:12.167  WARN 49644 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authentication.InternalAuthenticationServiceException: Cannot invoke "com.cog.entity.User.getId()" because "user" is null]
+2022-10-11 13:30:12.170 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2022-10-11 13:30:20.691 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 13:30:20.691 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/auth/login", parameters={}
+2022-10-11 13:30:20.691 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 13:30:20.699 DEBUG 49644 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.cog.dto.LoginDto@64710def]
+2022-10-11 13:30:20.699  INFO 49644 --- [http-nio-8080-exec-5] com.cog.controller.AuthorController      : loginUser
+2022-10-11 13:30:20.699  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:30:20.729  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:30:21.161 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:30:21.161 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.dto.JwtResponse@1f94f97]
+2022-10-11 13:30:21.170 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-11 13:30:21.253 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:30:21.262 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:30:21.265 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:30:21.266 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:30:21.320  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:30:21.320  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:30:21.373  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:30:21.375  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:30:21.390 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:30:21.391 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:30:21.392 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:30:21.392 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:30:21.392  INFO 49644 --- [http-nio-8080-exec-9] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:30:21.392  INFO 49644 --- [http-nio-8080-exec-8] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:30:21.441 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:30:21.441 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@3cbb02a7, com.cog.entity.User@76253295, com.cog.entity.User@7465cdec]]
+2022-10-11 13:30:21.450 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:30:21.451 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:30:21.451 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@1f8e23d6]
+2022-10-11 13:30:21.452 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:30:50.094 DEBUG 49644 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:30:50.094 DEBUG 49644 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:30:50.097  INFO 49644 --- [http-nio-8080-exec-10] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:30:50.097  INFO 49644 --- [http-nio-8080-exec-1] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:30:50.103  INFO 49644 --- [http-nio-8080-exec-1] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:30:50.103  INFO 49644 --- [http-nio-8080-exec-10] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:30:50.117 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:30:50.117 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:30:50.117 DEBUG 49644 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:30:50.119 DEBUG 49644 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:30:50.119  INFO 49644 --- [http-nio-8080-exec-1] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:30:50.119  INFO 49644 --- [http-nio-8080-exec-10] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:30:50.131 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:30:50.131 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@5fa6ddca]
+2022-10-11 13:30:50.131 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:30:50.139 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:30:50.139 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@6f05aff5, com.cog.entity.User@de00387, com.cog.entity.User@58bdd1ed]]
+2022-10-11 13:30:50.143 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:30:52.322 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:30:52.322 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:30:52.329  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:30:52.329  INFO 49644 --- [http-nio-8080-exec-3] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:30:52.337  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:30:52.337  INFO 49644 --- [http-nio-8080-exec-3] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:30:52.346 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:30:52.347 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:30:52.347 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:30:52.347 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:30:52.347  INFO 49644 --- [http-nio-8080-exec-3] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:30:52.347  INFO 49644 --- [http-nio-8080-exec-2] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:30:52.356 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:30:52.356 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@1de21106]
+2022-10-11 13:30:52.358 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:30:52.364 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:30:52.365 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@7bb42124, com.cog.entity.User@6b7ba25b, com.cog.entity.User@aa8f4c]]
+2022-10-11 13:30:52.367 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:31:08.468 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:31:08.469  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:31:08.474  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:31:08.478 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:31:08.481 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:31:08.481  INFO 49644 --- [http-nio-8080-exec-4] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:31:08.489 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:31:08.490 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@7da2145f]
+2022-10-11 13:31:08.491 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:31:08.657 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:31:08.668  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:31:08.674  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:31:08.685 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:31:08.686 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:31:08.686  INFO 49644 --- [http-nio-8080-exec-5] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:31:08.704 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:31:08.704 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@5d5dd7d6, com.cog.entity.User@1d29c99b, com.cog.entity.User@66a4492a]]
+2022-10-11 13:31:08.716 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:31:40.612 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:31:40.613 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:31:40.617  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:31:40.618  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:31:40.621  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:31:40.621  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:31:40.629 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:31:40.629 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:31:40.630 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:31:40.630 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:31:40.631  INFO 49644 --- [http-nio-8080-exec-7] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:31:40.631  INFO 49644 --- [http-nio-8080-exec-6] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:31:40.646 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:31:40.647 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@686fd8f3]
+2022-10-11 13:31:40.650 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:31:40.652 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:31:40.652 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@22a12fd9, com.cog.entity.User@13d22af9, com.cog.entity.User@242c197d]]
+2022-10-11 13:31:40.653 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:31:43.707 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:31:43.710  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:31:43.707 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:31:43.712  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:31:43.713  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:31:43.716  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:31:43.719 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:31:43.719 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:31:43.719  INFO 49644 --- [http-nio-8080-exec-9] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:31:43.723 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:31:43.723 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:31:43.723  INFO 49644 --- [http-nio-8080-exec-8] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:31:43.733 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:31:43.734 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@4a454e64]
+2022-10-11 13:31:43.735 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:31:43.737 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:31:43.737 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@38970107, com.cog.entity.User@24574115, com.cog.entity.User@1ba7477d]]
+2022-10-11 13:31:43.743 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:33:17.955 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:33:17.955 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:33:17.959  INFO 49644 --- [http-nio-8080-exec-3] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:33:17.959  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:33:17.969  INFO 49644 --- [http-nio-8080-exec-3] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:33:17.970  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:33:17.978 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:33:17.979 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:33:17.981  INFO 49644 --- [http-nio-8080-exec-3] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:33:17.983 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:33:17.983 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:33:17.983  INFO 49644 --- [http-nio-8080-exec-2] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:33:17.994 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:33:17.994 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@208dbac8]
+2022-10-11 13:33:17.999 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:33:18.003 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:33:18.003 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@1a15e3ae, com.cog.entity.User@46700876, com.cog.entity.User@3c63c721]]
+2022-10-11 13:33:18.003 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:33:21.518 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:33:21.518 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:33:21.520  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:33:21.522  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:33:21.524  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:33:21.526  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:33:21.534 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:33:21.535 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:33:21.536  INFO 49644 --- [http-nio-8080-exec-4] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:33:21.537 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:33:21.537 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:33:21.538  INFO 49644 --- [http-nio-8080-exec-5] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:33:21.548 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:33:21.548 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@5a87ddb8]
+2022-10-11 13:33:21.549 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:33:21.557 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:33:21.558 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@5512915d, com.cog.entity.User@56c9caeb, com.cog.entity.User@9b3bde9]]
+2022-10-11 13:33:21.560 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:33:37.286 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:33:37.286 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:33:37.294  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:33:37.294  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:33:37.302  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:33:37.302  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:33:37.310 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:33:37.311 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:33:37.311 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:33:37.311 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:33:37.313  INFO 49644 --- [http-nio-8080-exec-6] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:33:37.313  INFO 49644 --- [http-nio-8080-exec-7] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:33:37.325 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:33:37.325 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@d444838]
+2022-10-11 13:33:37.327 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:33:37.335 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:33:37.335 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@3cf78e15, com.cog.entity.User@29c657b6, com.cog.entity.User@6e856797]]
+2022-10-11 13:33:37.335 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:33:52.197 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:33:52.197 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:33:52.198  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:33:52.201  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:33:52.207  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:33:52.207  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:33:52.216 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:33:52.216 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:33:52.216 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:33:52.216 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:33:52.219  INFO 49644 --- [http-nio-8080-exec-9] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:33:52.219  INFO 49644 --- [http-nio-8080-exec-8] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:33:52.228 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:33:52.228 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@51a38b7]
+2022-10-11 13:33:52.228 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:33:52.233 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:33:52.233 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@11b5aa90, com.cog.entity.User@56f54237, com.cog.entity.User@62752a45]]
+2022-10-11 13:33:52.233 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:34:03.166 DEBUG 49644 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:34:03.166 DEBUG 49644 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:34:03.176  INFO 49644 --- [http-nio-8080-exec-10] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:34:03.177  INFO 49644 --- [http-nio-8080-exec-1] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:34:03.182  INFO 49644 --- [http-nio-8080-exec-10] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:34:03.182  INFO 49644 --- [http-nio-8080-exec-1] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:34:03.190 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:34:03.190 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:34:03.191 DEBUG 49644 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:34:03.191 DEBUG 49644 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:34:03.192  INFO 49644 --- [http-nio-8080-exec-1] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:34:03.192  INFO 49644 --- [http-nio-8080-exec-10] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:34:03.201 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:34:03.202 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@20278c48]
+2022-10-11 13:34:03.205 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:34:03.206 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:34:03.206 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@7e73968a, com.cog.entity.User@652c17a1, com.cog.entity.User@6df317db]]
+2022-10-11 13:34:03.207 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:34:11.958 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:34:11.958 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:34:11.963  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:34:11.963  INFO 49644 --- [http-nio-8080-exec-3] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:34:11.964  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:34:11.964  INFO 49644 --- [http-nio-8080-exec-3] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:34:11.976 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:34:11.976 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:34:11.976 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:34:11.976 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:34:11.976  INFO 49644 --- [http-nio-8080-exec-2] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:34:11.976  INFO 49644 --- [http-nio-8080-exec-3] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:34:11.986 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:34:11.986 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@44c09a6]
+2022-10-11 13:34:11.987 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:34:11.993 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:34:11.993 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@96ee6f2, com.cog.entity.User@1d4f79ae, com.cog.entity.User@5aa5893e]]
+2022-10-11 13:34:11.993 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:34:53.259 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:34:53.260 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:34:53.262  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:34:53.265  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:34:53.268  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:34:53.270  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:34:53.275 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:34:53.275 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:34:53.275 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:34:53.275 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:34:53.275  INFO 49644 --- [http-nio-8080-exec-4] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:34:53.278  INFO 49644 --- [http-nio-8080-exec-5] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:34:53.283 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:34:53.285 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@7028c45b]
+2022-10-11 13:34:53.287 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:34:53.289 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:34:53.289 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@356b0cb6, com.cog.entity.User@569674e5, com.cog.entity.User@6ecadcf2]]
+2022-10-11 13:34:53.291 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:35:06.335 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:35:06.335 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:35:06.341  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:35:06.342  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:35:06.347  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:35:06.347  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:35:06.349 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:35:06.349 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:35:06.356 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:35:06.356 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:35:06.356  INFO 49644 --- [http-nio-8080-exec-7] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:35:06.356  INFO 49644 --- [http-nio-8080-exec-6] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:35:06.364 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:35:06.365 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@77299d98]
+2022-10-11 13:35:06.367 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:35:06.369 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:35:06.369 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@39b7960, com.cog.entity.User@45f5aa1f, com.cog.entity.User@16e3a6f5]]
+2022-10-11 13:35:06.369 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:35:09.630 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:35:09.630 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:35:09.630  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:35:09.630  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:35:09.639  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:35:09.639  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:35:09.642 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:35:09.642 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:35:09.642 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:35:09.642 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:35:09.651  INFO 49644 --- [http-nio-8080-exec-8] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:35:09.651  INFO 49644 --- [http-nio-8080-exec-9] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:35:09.655 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:35:09.657 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@746701e9]
+2022-10-11 13:35:09.659 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:35:09.661 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:35:09.661 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@3b6a8eb4, com.cog.entity.User@74f514, com.cog.entity.User@6c7836a9]]
+2022-10-11 13:35:09.661 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:36:36.416 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:36:36.416 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:36:36.420  INFO 49644 --- [http-nio-8080-exec-3] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:36:36.420  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:36:36.424  INFO 49644 --- [http-nio-8080-exec-3] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:36:36.427  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:36:36.433 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:36:36.434 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:36:36.435  INFO 49644 --- [http-nio-8080-exec-3] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:36:36.436 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:36:36.438 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:36:36.439  INFO 49644 --- [http-nio-8080-exec-2] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:36:36.445 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:36:36.445 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@76f4ebff]
+2022-10-11 13:36:36.446 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:36:36.453 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:36:36.454 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@23164c91, com.cog.entity.User@445f6164, com.cog.entity.User@63c0f6aa]]
+2022-10-11 13:36:36.457 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:36:40.019 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:36:40.020 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:36:40.021  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:36:40.021  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:36:40.025  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:36:40.025  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:36:40.036 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:36:40.036 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:36:40.036 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:36:40.036 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:36:40.036  INFO 49644 --- [http-nio-8080-exec-5] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:36:40.036  INFO 49644 --- [http-nio-8080-exec-4] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:36:40.046 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:36:40.048 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@7eb57be6]
+2022-10-11 13:36:40.048 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:36:40.054 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:36:40.056 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@1f6704bd, com.cog.entity.User@1756ec5a, com.cog.entity.User@3bab1289]]
+2022-10-11 13:36:40.057 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:36:43.282 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:36:43.282 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:36:43.284  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:36:43.285  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:36:43.288  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:36:43.288  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:36:43.294 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:36:43.294 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:36:43.295  INFO 49644 --- [http-nio-8080-exec-7] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:36:43.297 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:36:43.298 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:36:43.300  INFO 49644 --- [http-nio-8080-exec-6] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:36:43.305 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:36:43.305 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@59273671]
+2022-10-11 13:36:43.306 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:36:43.315 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:36:43.316 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@2cdfd510, com.cog.entity.User@514eaf7d, com.cog.entity.User@1bb724eb]]
+2022-10-11 13:36:43.318 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:36:44.129 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:36:44.129 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:36:44.129  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:36:44.129  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:36:44.139  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:36:44.139  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:36:44.143 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:36:44.144 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:36:44.144  INFO 49644 --- [http-nio-8080-exec-9] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:36:44.144 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:36:44.144 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:36:44.144  INFO 49644 --- [http-nio-8080-exec-8] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:36:44.150 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:36:44.150 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@26a6bfd8]
+2022-10-11 13:36:44.154 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:36:44.156 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:36:44.156 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@e54089c, com.cog.entity.User@1057a2fc, com.cog.entity.User@764b0c47]]
+2022-10-11 13:36:44.156 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:37:30.021 DEBUG 49644 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:37:30.021 DEBUG 49644 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:37:30.026  INFO 49644 --- [http-nio-8080-exec-10] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:37:30.026  INFO 49644 --- [http-nio-8080-exec-1] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:37:30.031  INFO 49644 --- [http-nio-8080-exec-10] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:37:30.031  INFO 49644 --- [http-nio-8080-exec-1] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:37:30.042 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:37:30.042 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:37:30.042 DEBUG 49644 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:37:30.042 DEBUG 49644 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:37:30.043  INFO 49644 --- [http-nio-8080-exec-10] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:37:30.043  INFO 49644 --- [http-nio-8080-exec-1] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:37:30.048 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:37:30.049 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@6eae0494]
+2022-10-11 13:37:30.049 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:37:30.058 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:37:30.058 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@5155c3e7, com.cog.entity.User@58adce7b, com.cog.entity.User@6c8adc14]]
+2022-10-11 13:37:30.059 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:37:32.869 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:37:32.869 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:37:32.871  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:37:32.871  INFO 49644 --- [http-nio-8080-exec-3] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:37:32.874  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:37:32.874  INFO 49644 --- [http-nio-8080-exec-3] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:37:32.876 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:37:32.881 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:37:32.882  INFO 49644 --- [http-nio-8080-exec-2] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:37:32.882 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:37:32.883 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:37:32.885  INFO 49644 --- [http-nio-8080-exec-3] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:37:32.890 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:37:32.891 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@78e71aad]
+2022-10-11 13:37:32.892 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:37:32.894 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:37:32.894 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@c383655, com.cog.entity.User@3324dde3, com.cog.entity.User@1e7c9fb3]]
+2022-10-11 13:37:32.894 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:37:34.019 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:37:34.019 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:37:34.020  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:37:34.020  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:37:34.023  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:37:34.023  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:37:34.035 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:37:34.035 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:37:34.035 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:37:34.036  INFO 49644 --- [http-nio-8080-exec-4] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:37:34.036 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:37:34.037  INFO 49644 --- [http-nio-8080-exec-5] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:37:34.040 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:37:34.041 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@60bfbd6c]
+2022-10-11 13:37:34.042 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:37:34.046 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:37:34.046 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@10e765d0, com.cog.entity.User@58c28f3c, com.cog.entity.User@34e59e00]]
+2022-10-11 13:37:34.047 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:37:34.987 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:37:34.988 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:37:34.989  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:37:34.989  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:37:34.993  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:37:34.993  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:37:34.999 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:37:34.999 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:37:34.999 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:37:34.999 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:37:35.000  INFO 49644 --- [http-nio-8080-exec-7] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:37:35.000  INFO 49644 --- [http-nio-8080-exec-6] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:37:35.002 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:37:35.007 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@71cd81ca]
+2022-10-11 13:37:35.008 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:37:35.011 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:37:35.011 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@57329433, com.cog.entity.User@a5e8724, com.cog.entity.User@6742ac22]]
+2022-10-11 13:37:35.014 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:37:39.874 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:37:39.874 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:37:39.874  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:37:39.874  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:37:39.880  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:37:39.881  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:37:39.886 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:37:39.886 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:37:39.886 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:37:39.886 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:37:39.887  INFO 49644 --- [http-nio-8080-exec-8] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:37:39.887  INFO 49644 --- [http-nio-8080-exec-9] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:37:39.893 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:37:39.894 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@c0263bb]
+2022-10-11 13:37:39.901 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:37:39.903 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:37:39.904 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@1b0c4b53, com.cog.entity.User@750bb389, com.cog.entity.User@20d578d1]]
+2022-10-11 13:37:39.905 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:39:03.074 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllCirculars(String)
+2022-10-11 13:39:03.080 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllCirculars(String)
+2022-10-11 13:39:03.080  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:39:03.087  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:39:03.097 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/myschool/allCirculars/thanvi@gmail.com", parameters={}
+2022-10-11 13:39:03.097 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllCirculars(String)
+2022-10-11 13:39:03.107  INFO 49644 --- [http-nio-8080-exec-2] com.cog.controller.MySchoolController    : getAllCirculars
+2022-10-11 13:39:03.163 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:39:03.163 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Circular(id=1, notificationDate=2022-10-07, information=Schools Start  from  June 15th 2022, posted (truncated)...]
+2022-10-11 13:39:03.179 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:39:04.504 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:39:04.505 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:39:04.507  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:39:04.507  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:39:04.513  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:39:04.513  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:39:04.516 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:39:04.516 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:39:04.516 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:39:04.516 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:39:04.516  INFO 49644 --- [http-nio-8080-exec-4] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:39:04.516  INFO 49644 --- [http-nio-8080-exec-5] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:39:04.528 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:39:04.528 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@322540ce]
+2022-10-11 13:39:04.531 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:39:04.533 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:39:04.533 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@3a337776, com.cog.entity.User@aa47b86, com.cog.entity.User@37bf7ce0]]
+2022-10-11 13:39:04.534 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:39:10.658 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:39:10.659 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:39:10.664  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:39:10.664  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:39:10.666  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:39:10.666  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:39:10.672 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:39:10.672 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:39:10.673  INFO 49644 --- [http-nio-8080-exec-7] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:39:10.674 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:39:10.676 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:39:10.679  INFO 49644 --- [http-nio-8080-exec-6] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:39:10.684 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:39:10.685 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@9723556, com.cog.entity.User@54647ff0, com.cog.entity.User@347ef30d]]
+2022-10-11 13:39:10.687 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:39:10.689 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:39:10.689 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@5bf4afb4]
+2022-10-11 13:39:10.690 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:39:34.530 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 13:39:34.533 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/auth/login", parameters={}
+2022-10-11 13:39:34.533 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 13:39:34.533 DEBUG 49644 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.cog.dto.LoginDto@7ab11fd9]
+2022-10-11 13:39:34.533  INFO 49644 --- [http-nio-8080-exec-9] com.cog.controller.AuthorController      : loginUser
+2022-10-11 13:39:34.533  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:39:34.541  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:39:34.818 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:39:34.818 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.dto.JwtResponse@392ca8a6]
+2022-10-11 13:39:34.818 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-11 13:39:34.864 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:39:34.866 DEBUG 49644 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:39:34.869  INFO 49644 --- [http-nio-8080-exec-10] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:39:34.869  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:39:34.875  INFO 49644 --- [http-nio-8080-exec-10] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:39:34.884  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:39:34.887 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:39:34.887 DEBUG 49644 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:39:34.887  INFO 49644 --- [http-nio-8080-exec-10] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:39:34.887 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:39:34.896 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:39:34.897  INFO 49644 --- [http-nio-8080-exec-8] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:39:34.900 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:39:34.900 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@373416d4]
+2022-10-11 13:39:34.900 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:39:34.904 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:39:34.904 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@282b1f7b, com.cog.entity.User@5669b9f4, com.cog.entity.User@438440c6]]
+2022-10-11 13:39:34.905 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:40:42.995 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:40:42.997 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:40:42.998  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:40:42.998  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:40:43.000  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:40:43.000  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:40:43.010 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:40:43.011 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:40:43.011 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:40:43.011  INFO 49644 --- [http-nio-8080-exec-4] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:40:43.011 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:40:43.011  INFO 49644 --- [http-nio-8080-exec-2] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:40:43.018 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:40:43.018 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@63433337]
+2022-10-11 13:40:43.019 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:40:43.021 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:40:43.021 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@63250e7, com.cog.entity.User@602e6e47, com.cog.entity.User@54ea8c7e]]
+2022-10-11 13:40:43.022 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:40:59.729 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 13:40:59.729 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/auth/login", parameters={}
+2022-10-11 13:40:59.729 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 13:40:59.729 DEBUG 49644 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.cog.dto.LoginDto@5e9a185d]
+2022-10-11 13:40:59.729  INFO 49644 --- [http-nio-8080-exec-5] com.cog.controller.AuthorController      : loginUser
+2022-10-11 13:40:59.729  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:40:59.740  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:40:59.998 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:40:59.998 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.dto.JwtResponse@56f25705]
+2022-10-11 13:41:00.002 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-11 13:41:00.115 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:41:00.116  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:41:00.118 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:41:00.123  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:41:00.123  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:41:00.129  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:41:00.130 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:41:00.130 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:41:00.130  INFO 49644 --- [http-nio-8080-exec-7] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:41:00.135 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:41:00.135 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:41:00.137  INFO 49644 --- [http-nio-8080-exec-6] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:41:00.142 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:41:00.142 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@26f3c18d]
+2022-10-11 13:41:00.144 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:41:00.164 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:41:00.164 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@7b7465f9, com.cog.entity.User@1a0ec60, com.cog.entity.User@22d89c8f]]
+2022-10-11 13:41:00.164 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:41:11.258 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:41:11.258 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:41:11.258  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:41:11.258  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:41:11.262  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:41:11.262  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:41:11.270 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:41:11.270 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:41:11.271 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:41:11.271  INFO 49644 --- [http-nio-8080-exec-8] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:41:11.271 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:41:11.271  INFO 49644 --- [http-nio-8080-exec-9] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:41:11.276 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:41:11.276 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@3d308dfb]
+2022-10-11 13:41:11.278 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:41:11.278 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:41:11.278 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@51e28c65, com.cog.entity.User@7f196a23, com.cog.entity.User@381334d]]
+2022-10-11 13:41:11.279 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:42:30.074 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:42:30.074 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:42:30.076  INFO 49644 --- [http-nio-8080-exec-3] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:42:30.078  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:42:30.081  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:42:30.081  INFO 49644 --- [http-nio-8080-exec-3] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:42:30.088 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:42:30.088 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:42:30.088 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:42:30.088 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:42:30.088  INFO 49644 --- [http-nio-8080-exec-3] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:42:30.088  INFO 49644 --- [http-nio-8080-exec-2] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:42:30.095 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:42:30.095 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@681ae6be]
+2022-10-11 13:42:30.097 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:42:30.099 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:42:30.099 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@21373e38, com.cog.entity.User@52f54b5, com.cog.entity.User@437b647f]]
+2022-10-11 13:42:30.101 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:44:57.175 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:44:57.176  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:44:57.181 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:44:57.183  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:44:57.184  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:44:57.186  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:44:57.188 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:44:57.189 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:44:57.190  INFO 49644 --- [http-nio-8080-exec-7] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:44:57.192 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:44:57.192 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:44:57.192  INFO 49644 --- [http-nio-8080-exec-6] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:44:57.195 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:44:57.195 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@7adeb865]
+2022-10-11 13:44:57.196 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:44:57.201 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:44:57.201 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@d013323, com.cog.entity.User@2678d2dd, com.cog.entity.User@613900e4]]
+2022-10-11 13:44:57.205 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:45:01.816 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:45:01.816 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:45:01.819  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:45:01.826  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:45:01.828  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:45:01.830  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:45:01.834 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:45:01.835 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:45:01.835 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:45:01.835  INFO 49644 --- [http-nio-8080-exec-9] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:45:01.836 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:45:01.836  INFO 49644 --- [http-nio-8080-exec-8] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:45:01.839 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:45:01.840 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@6b936523]
+2022-10-11 13:45:01.841 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:45:01.848 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:45:01.848 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@3e2f6e08, com.cog.entity.User@35bb8060, com.cog.entity.User@4d803187]]
+2022-10-11 13:45:01.849 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:45:21.619 DEBUG 49644 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:45:21.619 DEBUG 49644 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:45:21.619  INFO 49644 --- [http-nio-8080-exec-10] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:45:21.619  INFO 49644 --- [http-nio-8080-exec-1] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:45:21.624  INFO 49644 --- [http-nio-8080-exec-1] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:45:21.624  INFO 49644 --- [http-nio-8080-exec-10] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:45:21.632 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:45:21.632 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:45:21.632 DEBUG 49644 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:45:21.632 DEBUG 49644 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:45:21.632  INFO 49644 --- [http-nio-8080-exec-1] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:45:21.633  INFO 49644 --- [http-nio-8080-exec-10] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:45:21.636 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:45:21.636 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@25a13d95]
+2022-10-11 13:45:21.641 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:45:21.636 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:45:21.644 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@400d17e2, com.cog.entity.User@2880e569, com.cog.entity.User@6fd7b524]]
+2022-10-11 13:45:21.645 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:46:01.482 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:46:01.482 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:46:01.482  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:46:01.482  INFO 49644 --- [http-nio-8080-exec-3] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:46:01.488  INFO 49644 --- [http-nio-8080-exec-3] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:46:01.488  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:46:01.490 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:46:01.490 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:46:01.490 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:46:01.490  INFO 49644 --- [http-nio-8080-exec-2] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:46:01.490 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:46:01.490  INFO 49644 --- [http-nio-8080-exec-3] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:46:01.504 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:46:01.505 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:46:01.505 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@39ae3d7a]
+2022-10-11 13:46:01.505 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@50e2e552, com.cog.entity.User@c22839e, com.cog.entity.User@19650f7a]]
+2022-10-11 13:46:01.506 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:46:01.506 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:46:28.840 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:46:28.840 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:46:28.840  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:46:28.840  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:46:28.850  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:46:28.850  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:46:28.854 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:46:28.854 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:46:28.854 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:46:28.854 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:46:28.854  INFO 49644 --- [http-nio-8080-exec-5] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:46:28.854  INFO 49644 --- [http-nio-8080-exec-4] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:46:28.863 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:46:28.864 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@4b566293]
+2022-10-11 13:46:28.865 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:46:28.868 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:46:28.868 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@4c86821c, com.cog.entity.User@12fe58af, com.cog.entity.User@33d9dff]]
+2022-10-11 13:46:28.869 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:46:30.350 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:46:30.353 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:46:30.355  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:46:30.355  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:46:30.356  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:46:30.356  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:46:30.356 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:46:30.356 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:46:30.356 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:46:30.356  INFO 49644 --- [http-nio-8080-exec-7] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:46:30.356 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:46:30.356  INFO 49644 --- [http-nio-8080-exec-6] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:46:30.370 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:46:30.370 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@61883180]
+2022-10-11 13:46:30.371 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:46:30.372 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:46:30.372 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@47b5ba63, com.cog.entity.User@78eff918, com.cog.entity.User@22a3d29e]]
+2022-10-11 13:46:30.372 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:46:31.328 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:46:31.328 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:46:31.328  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:46:31.328  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:46:31.337  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:46:31.338  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:46:31.340 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:46:31.340 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:46:31.340  INFO 49644 --- [http-nio-8080-exec-8] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:46:31.340 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:46:31.340 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:46:31.340  INFO 49644 --- [http-nio-8080-exec-9] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:46:31.353 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:46:31.355 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@4c4fbd42]
+2022-10-11 13:46:31.356 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:46:31.356 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@3b000cf8, com.cog.entity.User@22bb2249, com.cog.entity.User@6115766a]]
+2022-10-11 13:46:31.356 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:46:31.357 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:46:32.481 DEBUG 49644 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:46:32.481 DEBUG 49644 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:46:32.482  INFO 49644 --- [http-nio-8080-exec-1] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:46:32.482  INFO 49644 --- [http-nio-8080-exec-10] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:46:32.487  INFO 49644 --- [http-nio-8080-exec-1] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:46:32.487  INFO 49644 --- [http-nio-8080-exec-10] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:46:32.494 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:46:32.494 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:46:32.494 DEBUG 49644 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:46:32.494 DEBUG 49644 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:46:32.494  INFO 49644 --- [http-nio-8080-exec-10] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:46:32.495  INFO 49644 --- [http-nio-8080-exec-1] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:46:32.499 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:46:32.500 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@3ba1db8b]
+2022-10-11 13:46:32.500 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:46:32.500 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:46:32.500 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@738f33bc, com.cog.entity.User@407468fe, com.cog.entity.User@11f33130]]
+2022-10-11 13:46:32.501 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:46:50.947 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 13:46:50.947 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/auth/login", parameters={}
+2022-10-11 13:46:50.947 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 13:46:50.952 DEBUG 49644 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.cog.dto.LoginDto@23f4aad8]
+2022-10-11 13:46:50.953  INFO 49644 --- [http-nio-8080-exec-2] com.cog.controller.AuthorController      : loginUser
+2022-10-11 13:46:50.953  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:46:50.958  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:46:51.186 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:46:51.194 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.dto.JwtResponse@1b11c345]
+2022-10-11 13:46:51.195 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-11 13:46:51.231 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:46:51.234 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:46:51.234  INFO 49644 --- [http-nio-8080-exec-3] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:46:51.235  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:46:51.240  INFO 49644 --- [http-nio-8080-exec-3] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:46:51.241  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:46:51.244 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:46:51.244 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:46:51.246 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:46:51.246 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:46:51.246  INFO 49644 --- [http-nio-8080-exec-4] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:46:51.246  INFO 49644 --- [http-nio-8080-exec-3] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:46:51.253 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:46:51.254 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@270ddcee]
+2022-10-11 13:46:51.256 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:46:51.258 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:46:51.258 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@2b642979, com.cog.entity.User@1ee3d8a6, com.cog.entity.User@206d1cc3]]
+2022-10-11 13:46:51.259 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:48:52.425 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:48:52.425 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:48:52.427  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:48:52.427  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:48:52.436  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:48:52.436  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:48:52.444 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:48:52.449 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:48:52.449  INFO 49644 --- [http-nio-8080-exec-9] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:48:52.454 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:48:52.455 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:48:52.456  INFO 49644 --- [http-nio-8080-exec-6] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:48:52.462 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:48:52.462 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:48:52.462 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@1cdf7eb7, com.cog.entity.User@6ae3961f, com.cog.entity.User@138c107e]]
+2022-10-11 13:48:52.462 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@46d2e4bc]
+2022-10-11 13:48:52.464 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:48:52.464 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:49:07.206 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 13:49:07.206 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/auth/login", parameters={}
+2022-10-11 13:49:07.206 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 13:49:07.206 DEBUG 49644 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.cog.dto.LoginDto@468f7cff]
+2022-10-11 13:49:07.206  INFO 49644 --- [http-nio-8080-exec-8] com.cog.controller.AuthorController      : loginUser
+2022-10-11 13:49:07.206  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:49:07.216  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:49:07.490 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:49:07.498 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.dto.JwtResponse@657fcd82]
+2022-10-11 13:49:07.499 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-11 13:49:07.540 DEBUG 49644 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:49:07.541 DEBUG 49644 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:49:07.542  INFO 49644 --- [http-nio-8080-exec-10] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:49:07.542  INFO 49644 --- [http-nio-8080-exec-1] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:49:07.548  INFO 49644 --- [http-nio-8080-exec-10] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:49:07.548  INFO 49644 --- [http-nio-8080-exec-1] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:49:07.555 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:49:07.555 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:49:07.556 DEBUG 49644 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:49:07.556 DEBUG 49644 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:49:07.556  INFO 49644 --- [http-nio-8080-exec-1] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:49:07.556  INFO 49644 --- [http-nio-8080-exec-10] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:49:07.562 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:49:07.562 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@4db64c15]
+2022-10-11 13:49:07.564 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:49:07.567 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:49:07.567 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@5fcd6ba7, com.cog.entity.User@3c6231f7, com.cog.entity.User@1e1322ee]]
+2022-10-11 13:49:07.569 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:50:06.716 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:50:06.716 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:50:06.718  INFO 49644 --- [http-nio-8080-exec-3] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:50:06.718  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:50:06.720  INFO 49644 --- [http-nio-8080-exec-3] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:50:06.720  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:50:06.727 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:50:06.727 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:50:06.727 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:50:06.727 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:50:06.729  INFO 49644 --- [http-nio-8080-exec-3] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:50:06.729  INFO 49644 --- [http-nio-8080-exec-2] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:50:06.739 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:50:06.743 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@1f7621ad]
+2022-10-11 13:50:06.745 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:50:06.745 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@6ced9203, com.cog.entity.User@3e43fe58, com.cog.entity.User@4eec2ea1]]
+2022-10-11 13:50:06.746 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:50:06.746 DEBUG 49644 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:50:24.511 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 13:50:24.511 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/auth/login", parameters={}
+2022-10-11 13:50:24.511 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 13:50:24.511 DEBUG 49644 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.cog.dto.LoginDto@7408f7a4]
+2022-10-11 13:50:24.511  INFO 49644 --- [http-nio-8080-exec-4] com.cog.controller.AuthorController      : loginUser
+2022-10-11 13:50:24.511  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:50:24.520  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:50:24.802 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:50:24.802 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.dto.JwtResponse@5c929d6b]
+2022-10-11 13:50:24.802 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-11 13:50:24.852 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:50:24.853 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:50:24.855  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:50:24.855  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:50:24.857  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:50:24.857  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:50:24.866 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:50:24.866 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:50:24.866 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:50:24.866 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:50:24.867  INFO 49644 --- [http-nio-8080-exec-5] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:50:24.867  INFO 49644 --- [http-nio-8080-exec-7] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:50:24.870 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:50:24.871 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@703f6a11]
+2022-10-11 13:50:24.872 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:50:24.876 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:50:24.877 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@255e03f, com.cog.entity.User@74bb06c7, com.cog.entity.User@2b6efb28]]
+2022-10-11 13:50:24.879 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:50:43.178 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllCirculars(String)
+2022-10-11 13:50:43.180  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:50:43.185  INFO 49644 --- [http-nio-8080-exec-6] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:50:43.191 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/myschool/allCirculars/thanvi@gmail.com", parameters={}
+2022-10-11 13:50:43.191 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllCirculars(String)
+2022-10-11 13:50:43.192  INFO 49644 --- [http-nio-8080-exec-6] com.cog.controller.MySchoolController    : getAllCirculars
+2022-10-11 13:50:43.210 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:50:43.211 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Circular(id=1, notificationDate=2022-10-07, information=Schools Start  from  June 15th 2022, posted (truncated)...]
+2022-10-11 13:50:43.211 DEBUG 49644 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:50:44.698 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:50:44.698 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:50:44.702  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:50:44.702  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:50:44.702  INFO 49644 --- [http-nio-8080-exec-8] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:50:44.702  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:50:44.710 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/myschool/6", parameters={}
+2022-10-11 13:50:44.710 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 13:50:44.711 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 13:50:44.711 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 13:50:44.711  INFO 49644 --- [http-nio-8080-exec-8] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 13:50:44.711  INFO 49644 --- [http-nio-8080-exec-9] com.cog.controller.MySchoolController    : getUser
+2022-10-11 13:50:44.711 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:50:44.717 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@529a1ac9]
+2022-10-11 13:50:44.717 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:50:44.720 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:50:44.720 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@2fe0ae2a, com.cog.entity.User@66b2353, com.cog.entity.User@37ecbb5e]]
+2022-10-11 13:50:44.721 DEBUG 49644 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 13:50:46.400 DEBUG 49644 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllCirculars(String)
+2022-10-11 13:50:46.403  INFO 49644 --- [http-nio-8080-exec-10] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 13:50:46.407  INFO 49644 --- [http-nio-8080-exec-10] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 13:50:46.416 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/myschool/allCirculars/thanvi@gmail.com", parameters={}
+2022-10-11 13:50:46.416 DEBUG 49644 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllCirculars(String)
+2022-10-11 13:50:46.416  INFO 49644 --- [http-nio-8080-exec-10] com.cog.controller.MySchoolController    : getAllCirculars
+2022-10-11 13:50:46.433 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 13:50:46.433 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Circular(id=1, notificationDate=2022-10-07, information=Schools Start  from  June 15th 2022, posted (truncated)...]
+2022-10-11 13:50:46.433 DEBUG 49644 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 14:56:24.206 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#createParentUser(UserDto)
+2022-10-11 14:56:24.215 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#createParentUser(UserDto)
+2022-10-11 14:56:24.224 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/auth/signup", parameters={}
+2022-10-11 14:56:24.224 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#createParentUser(UserDto)
+2022-10-11 14:56:24.275 DEBUG 49644 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.cog.dto.UserDto@5fd0bdde]
+2022-10-11 14:56:24.325 DEBUG 49644 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.cog.controller.AuthorController#handleMethodArumentException(MethodArgumentNotValidException)
+2022-10-11 14:56:24.335 DEBUG 49644 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 14:56:24.335 DEBUG 49644 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [{state=State  cannot be Empty}]
+2022-10-11 14:56:24.338  WARN 49644 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in org.springframework.http.ResponseEntity<java.lang.Long> com.cog.controller.AuthorController.createParentUser(com.cog.dto.UserDto): [Field error in object 'userDto' on field 'state': rejected value []; codes [NotBlank.userDto.state,NotBlank.state,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userDto.state,state]; arguments []; default message [state]]; default message [State  cannot be Empty]] ]
+2022-10-11 14:56:24.340 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2022-10-11 14:56:44.581 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#createParentUser(UserDto)
+2022-10-11 14:56:44.582 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/auth/signup", parameters={}
+2022-10-11 14:56:44.582 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#createParentUser(UserDto)
+2022-10-11 14:56:44.582 DEBUG 49644 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.cog.dto.UserDto@4bb95cbb]
+2022-10-11 14:56:44.582 DEBUG 49644 --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.cog.controller.AuthorController#handleMethodArumentException(MethodArgumentNotValidException)
+2022-10-11 14:56:44.582 DEBUG 49644 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 14:56:44.582 DEBUG 49644 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [{state=State  cannot be Empty}]
+2022-10-11 14:56:44.582  WARN 49644 --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in org.springframework.http.ResponseEntity<java.lang.Long> com.cog.controller.AuthorController.createParentUser(com.cog.dto.UserDto): [Field error in object 'userDto' on field 'state': rejected value []; codes [NotBlank.userDto.state,NotBlank.state,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userDto.state,state]; arguments []; default message [state]]; default message [State  cannot be Empty]] ]
+2022-10-11 14:56:44.582 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2022-10-11 14:57:15.159 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#createParentUser(UserDto)
+2022-10-11 14:57:15.159 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/auth/signup", parameters={}
+2022-10-11 14:57:15.159 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#createParentUser(UserDto)
+2022-10-11 14:57:15.161 DEBUG 49644 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.cog.dto.UserDto@2a29f0b0]
+2022-10-11 14:57:15.161  INFO 49644 --- [http-nio-8080-exec-7] com.cog.controller.AuthorController      : createUser
+2022-10-11 14:57:15.161  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserService              : saveUser
+2022-10-11 14:57:15.417  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserMappingService       : findById
+2022-10-11 14:57:15.420  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserMappingService       : createMapping
+2022-10-11 14:57:15.447 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 14:57:15.447 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [9605114869]
+2022-10-11 14:57:15.447 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-11 14:58:10.374 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 14:58:10.384 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 14:58:10.385 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/auth/login", parameters={}
+2022-10-11 14:58:10.385 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.AuthorController#loginUser(LoginDto)
+2022-10-11 14:58:10.385 DEBUG 49644 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.cog.dto.LoginDto@5561e5dc]
+2022-10-11 14:58:10.385  INFO 49644 --- [http-nio-8080-exec-9] com.cog.controller.AuthorController      : loginUser
+2022-10-11 14:58:10.385  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 14:58:10.385  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 14:58:10.493 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 14:58:10.493 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.dto.JwtResponse@caebe65]
+2022-10-11 14:58:10.493 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-11 14:58:10.528 DEBUG 49644 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 14:58:10.529 DEBUG 49644 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 14:58:10.535 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 14:58:10.535 DEBUG 49644 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 14:58:10.536  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 14:58:10.536  INFO 49644 --- [http-nio-8080-exec-1] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 14:58:10.540  INFO 49644 --- [http-nio-8080-exec-2] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 14:58:10.543  INFO 49644 --- [http-nio-8080-exec-1] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 14:58:10.544 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 14:58:10.544 DEBUG 49644 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 14:58:10.544  INFO 49644 --- [http-nio-8080-exec-2] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 14:58:10.547 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/myschool/8", parameters={}
+2022-10-11 14:58:10.549 DEBUG 49644 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 14:58:10.552  INFO 49644 --- [http-nio-8080-exec-1] com.cog.controller.MySchoolController    : getUser
+2022-10-11 14:58:10.554 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 14:58:10.554 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@2f181ff, com.cog.entity.User@47d7ae5b, com.cog.entity.User@5f518051, com.cog.en (truncated)...]
+2022-10-11 14:58:10.554 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 14:58:10.554 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@47c9b078]
+2022-10-11 14:58:10.554 DEBUG 49644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 14:58:10.554 DEBUG 49644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 14:58:26.450 DEBUG 49644 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#updateUser(UserDto)
+2022-10-11 14:58:26.450 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#updateUser(UserDto)
+2022-10-11 14:58:26.450  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 14:58:26.450  INFO 49644 --- [http-nio-8080-exec-4] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 14:58:26.459 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : PUT "/myschool/", parameters={}
+2022-10-11 14:58:26.459 DEBUG 49644 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#updateUser(UserDto)
+2022-10-11 14:58:26.459 DEBUG 49644 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.cog.dto.UserDto@7def6f47]
+2022-10-11 14:58:26.459  INFO 49644 --- [http-nio-8080-exec-4] com.cog.controller.MySchoolController    : updateUser
+2022-10-11 14:58:26.568 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 14:58:26.568 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@1b0d167a]
+2022-10-11 14:58:26.568 DEBUG 49644 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 14:58:32.210 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 14:58:32.210  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 14:58:32.210 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 14:58:32.213  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 14:58:32.217  INFO 49644 --- [http-nio-8080-exec-5] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 14:58:32.219  INFO 49644 --- [http-nio-8080-exec-7] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 14:58:32.219 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/myschool/8", parameters={}
+2022-10-11 14:58:32.219 DEBUG 49644 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getUser(Integer)
+2022-10-11 14:58:32.219  INFO 49644 --- [http-nio-8080-exec-5] com.cog.controller.MySchoolController    : getUser
+2022-10-11 14:58:32.219 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 14:58:32.219 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.cog.entity.User@29866c7e]
+2022-10-11 14:58:32.226 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/myschool/", parameters={}
+2022-10-11 14:58:32.226 DEBUG 49644 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllUsers()
+2022-10-11 14:58:32.226 DEBUG 49644 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 14:58:32.227  INFO 49644 --- [http-nio-8080-exec-7] com.cog.controller.MySchoolController    : getAllUsers
+2022-10-11 14:58:32.231 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 14:58:32.231 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.cog.entity.User@50653948, com.cog.entity.User@5c121c75, com.cog.entity.User@64ad5c5c, com.cog.e (truncated)...]
+2022-10-11 14:58:32.238 DEBUG 49644 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED
+2022-10-11 14:58:37.469 DEBUG 49644 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllCirculars(String)
+2022-10-11 14:58:37.472 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllCirculars(String)
+2022-10-11 14:58:37.472  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserService              : loadUserByUsername
+2022-10-11 14:58:37.472  INFO 49644 --- [http-nio-8080-exec-9] com.cog.service.UserMappingService       : findByUserId
+2022-10-11 14:58:37.482 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/myschool/allCirculars/hema@gmail.com", parameters={}
+2022-10-11 14:58:37.482 DEBUG 49644 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.cog.controller.MySchoolController#getAllCirculars(String)
+2022-10-11 14:58:37.483  INFO 49644 --- [http-nio-8080-exec-9] com.cog.controller.MySchoolController    : getAllCirculars
+2022-10-11 14:58:37.491 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-11 14:58:37.491 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Circular(id=1, notificationDate=2022-10-07, information=Schools Start  from  June 15th 2022, posted (truncated)...]
+2022-10-11 14:58:37.491 DEBUG 49644 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 202 ACCEPTED

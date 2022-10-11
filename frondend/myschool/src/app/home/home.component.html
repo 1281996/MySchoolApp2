@@ -55,7 +55,7 @@
                 <div class="input-field col s4">
                     <input id="parent_name" type="text" class="validate" formControlName="parentName"
                         [(ngModel)]="resParent.parentName" />
-                    <label for="parent_name">Parent Name<span class='start'>*</span></label>
+                    <label for="parent_name" class="active">Parent Name<span class='start'>*</span></label>
                     <dd class="text-danger" *ngIf="parentName.touched && parentName.invalid">
                         <span *ngIf="parentName.errors?.['required']">Parent Name Required</span>
                     </dd>
@@ -67,7 +67,7 @@
                 <div class="input-field col s4">
                     <input id="student_name" type="text" class="validate" formControlName="studentName"
                         [(ngModel)]="resParent.studentName" />
-                    <label for="student_name">Student Name<span class='start'>*</span></label>
+                    <label for="student_name" class="active">Student Name<span class='start'>*</span></label>
                     <dd class="text-danger" *ngIf="studentName.touched && studentName.invalid">
                         <span *ngIf="studentName.errors?.['required']">Student Name Required</span>
                     </dd>
@@ -79,7 +79,7 @@
                 <div class="input-field col s4">
                     <input id="student_reg_no" type="text" class="validate" formControlName="studentRegNo"
                         [(ngModel)]="resParent.studentRegNo" />
-                    <label for="student_reg_no">Student Register No<span class='start'>*</span></label>
+                    <label for="student_reg_no" class="active">Student Register No<span class='start'>*</span></label>
                     <dd class="text-danger" *ngIf="studentRegNo.touched && studentRegNo.invalid">
                         <span *ngIf="studentRegNo.errors?.['required']">StudentRegNo Required</span>
                     </dd>
@@ -92,7 +92,7 @@
                 <div class="input-field col s5">
                     <input id="email" type="email" class="validate" [(ngModel)]="resParent.emailId"
                         formControlName="emailId" />
-                    <label for="email">Email<span class='start'>*</span></label>
+                    <label for="email" class="active">Email<span class='start'>*</span></label>
                     <dd class="text-danger" *ngIf="emailId.touched && emailId.invalid">
                         <span *ngIf="emailId.errors?.['required']">EmailId Required</span>
                     </dd>
@@ -102,7 +102,7 @@
                 </div>
                 <div class="input-field col s5">
                     <input id="password" type="password" class="validate" formControlName="password" />
-                    <label for="password">Password<span class='start'>*</span></label>
+                    <label for="password" class="active">Password<span class='start'>*</span></label>
                     <dd class="text-danger" *ngIf="password.touched && password.invalid">
                         <span *ngIf="password.errors?.['required']">Password Required</span>
                     </dd>
@@ -112,7 +112,7 @@
                 <div class="input-field col s12">
                     <textarea id="address" class="materialize-textarea" formControlName="address"
                         [(ngModel)]="resParent.address"></textarea>
-                    <label for="address">Address<span class='start'>*</span></label>
+                    <label for="address" class="active">Address<span class='start'>*</span></label>
                     <dd class="text-danger" *ngIf="address.touched && address.invalid">
                         <span *ngIf="address.errors?.['required']">Address Required</span>
                     </dd>
@@ -135,7 +135,7 @@
                 </div>
                 <div class="input-field col s3">
                     <input id="city" type="text" class="validate" formControlName="city" [(ngModel)]="resParent.city" />
-                    <label for="city">City<span class='start'>*</span></label>
+                    <label for="city" class="active">City<span class='start'>*</span></label>
                     <dd class="text-danger" *ngIf="city.touched && city.invalid">
                         <span *ngIf="city.errors?.['required']">City Required</span>
                     </dd>
@@ -146,7 +146,7 @@
                 <div class="input-field col s3">
                     <input id="zip_code" type="number" class="validate" formControlName="zipCode"
                         [(ngModel)]="resParent.zipCode" />
-                    <label for="zip_code">Zip Code<span class='start'>*</span></label>
+                    <label for="zip_code" class="active">Zip Code<span class='start'>*</span></label>
                     <dd class="text-danger" *ngIf="zipCode.touched && zipCode.invalid">
                         <span *ngIf="zipCode.errors?.['required']">Zipcode Required</span>
                     </dd>
@@ -159,7 +159,8 @@
                 <div class="input-field col s3">
                     <input id="primary_contact_name" type="text" class="validate" formControlName="primaryContactName"
                         [(ngModel)]="resParent.primaryContactName" />
-                    <label for="primary_contact_name">Primary Contact Name<span class='start'>*</span></label>
+                    <label for="primary_contact_name" class="active">Primary Contact Name<span
+                            class='start'>*</span></label>
                     <dd class="text-danger" *ngIf="primaryContactName.touched && primaryContactName.invalid">
                         <span *ngIf="primaryContactName.errors?.['required']">Primary contact name Required</span>
                     </dd>
@@ -167,7 +168,8 @@
                 <div class="input-field col s3">
                     <input id="primary_contact_no" type="number" class="validate"
                         formControlName="primaryContactPhoneNo" [(ngModel)]="resParent.primaryContactPhoneNo" />
-                    <label for="primary_contact_no">Primary Contact Number<span class='start'>*</span></label>
+                    <label for="primary_contact_no" class="active">Primary Contact Number<span
+                            class='start'>*</span></label>
                     <dd class="text-danger" *ngIf="primaryContactPhoneNo.touched && primaryContactPhoneNo.invalid">
                         <span *ngIf="primaryContactPhoneNo.errors?.['required']">Primary Contact No Required</span>
                     </dd>
@@ -179,7 +181,8 @@
                 <div class="input-field col s3">
                     <input id="secondary_contact_name" type="text" class="validate"
                         formControlName="secondaryContactName" [(ngModel)]="resParent.secondaryContactName" />
-                    <label for="secondary_contact_name">Secondary Contact Name<span class='start'>*</span></label>
+                    <label for="secondary_contact_name" class="active">Secondary Contact Name<span
+                            class='start'>*</span></label>
                     <dd class="text-danger" *ngIf="secondaryContactName.touched && secondaryContactName.invalid">
                         <span *ngIf="secondaryContactName.errors?.['required']">Secondary contact Name Required</span>
                     </dd>
@@ -187,7 +190,8 @@
                 <div class="input-field col s3">
                     <input id="secondary_phone_no" type="number" class="validate"
                         formControlName="secondaryContactPhoneNo" [(ngModel)]="resParent.secondaryContactPhoneNo" />
-                    <label for="secondary_phone_no">Secondary Contact Number<span class='start'>*</span></label>
+                    <label for="secondary_phone_no" class="active">Secondary Contact Number<span
+                            class='start'>*</span></label>
                     <dd class="text-danger" *ngIf="secondaryContactPhoneNo.touched && secondaryContactPhoneNo.invalid">
                         <span *ngIf="secondaryContactPhoneNo.errors?.['required']">Secondary contact No Required</span>
                     </dd>
@@ -201,11 +205,11 @@
                 <div class="input-field col s3">
                     <input type="text" class="datepicker" formControlName="dateOfBirth" id="date_of_birth"
                         [(ngModel)]="resParent.dateOfBirth" />
-                    <label for="date_of_birth">DOB<span class='start'>*</span></label>
+                    <label for="date_of_birth" class="active">DOB<span class='start'>*</span></label>
                 </div>
                 <div class="input-field col s3">
                     <input type="number" class="validate" formControlName="age" id="age" [(ngModel)]="resParent.age" />
-                    <label for="age">Age<span class='start'>*</span></label>
+                    <label for="age" class="active">Age<span class='start'>*</span></label>
                     <dd class="text-danger" *ngIf="age.touched && age.invalid">
                         <span *ngIf="age.errors?.['required']">Age Required</span>
                     </dd>

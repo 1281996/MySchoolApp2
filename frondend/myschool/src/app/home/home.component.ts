@@ -32,6 +32,8 @@ export class HomeComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+    //
+    M.updateTextFields();
     //get role name
     this.roleName = this.tokenService.getUser().roles[0];
     this.parentId = this.tokenService.getUser().id;
