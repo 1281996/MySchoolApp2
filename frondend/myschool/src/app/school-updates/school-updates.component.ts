@@ -75,6 +75,7 @@ export class SchoolUpdatesComponent implements OnInit {
         this.createCircularFlag = false;
         this.acknoledgeFlag = false;
         this.viewCircularFlag = true;
+        this.allCirculars = response;
       },
       (error: any) => {
         console.log(error);
