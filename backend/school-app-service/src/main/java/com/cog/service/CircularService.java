@@ -4,8 +4,11 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
 
 import com.cog.dto.ResponseDto;
 import com.cog.entity.Acknowledge;
@@ -21,12 +24,13 @@ public class CircularService {
 
 	@Autowired
 	AcknowledgeRepository acknowledgeRepository;
+	private static final Logger LOGGER = LoggerFactory.getLogger(CircularService.class);
 
 	public List<Circular> getAllCirculars(String email) {
 		List<Circular> filteredList= circularRepository.findAll();
 				filteredList.forEach(circular->{
 			 List<Acknowledge> acknowledge=acknowledgeRepository.findByEmailAndCircular(email,circular);
-			System.out.println(acknowledge.toString());
+			 LOGGER.info(acknowledge.toString());
 			 if(!acknowledge.isEmpty()) {
 				circular.setAckonwledgeFlag(true);
 			}
